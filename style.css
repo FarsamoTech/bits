@@ -1,0 +1,74 @@
+/*custom css */
+.hero-section {
+  background-image: url('img/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ml-520 {
+  margin-left: -520px;
+}
+
+.text-about {
+   color: #20AD5F;
+}
+.text-about:hover {
+   color: #20AD5F;;
+}
+.text-join {
+   color: #20AD5F;
+}
+.hr-width {
+   width: 60px; 
+   margin-right: auto; 
+   margin-left: auto;
+   border: 2px solid #F8991D;
+}
+.hr {
+   border-color: #F8991D;
+}
+
+/*what we do and hero section css*/
+.what-color {
+    color: #F27521;
+    font-weight: bold;
+}
+
+.hero-color {
+    color: #3429AB;
+}
+
+.map {
+   margin-left: -30px;
+}
+
+/*small devices responsive layouts*/
+
+@media (max-width: 790px) {
+   .ml-520 {
+    margin-left: 0px;
+    width: 400px;
+   }
+   .map {
+      margin-left: 0px;
+   }
+}
+@media (max-width: 950px) {
+   .ml-520 {
+    margin-left: 0px;
+    width: 400px;
+   }
+}
+@media (max-width: 850px) {
+   .ml-520 {
+    margin-left: 0px;
+    width: 400px;
+   }
+}
+
+@media (max-width: 560px) {
+   .ml-520 {
+    margin-left: 0px;
+   display: none;
+   }
+}
+
